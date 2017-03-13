@@ -1,0 +1,41 @@
+.container{
+	background-color: #eee;
+	border: 1px solid #999;
+	height: auto;
+	overflow: hidden;/*可将父元素的高度撑开*/
+}
+.left{
+	width: 200px;
+	float: left;
+	background-color: #969696;
+	position: relative;
+	margin: 20px;
+}
+.right{
+	width: 120px;
+	float: right;
+	background-color: #696969;
+	margin: 20px;
+	padding-bottom: 20px;
+}
+.center{
+	background-color: green;
+	color: #fff;
+	overflow: auto;/*若不加此句，左边栏因为高度较短，会使中间部分补充到左侧*/
+	margin-top: 20px;
+}
+img{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
+.left img{
+	margin: 20px;
+}
+.right img{
+	margin: 20px 20px 0 20px;
+}
+.left span{
+	position:absolute;
+	top: 20px;
+}

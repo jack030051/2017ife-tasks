@@ -1,0 +1,139 @@
+.container{
+	width:1000px;
+	margin: auto;
+	background-color: #cccccc;
+}
+.nav_bar{
+	background-color: #99ccff;
+	width:1000px;
+	height: 80px;
+	position: relative;
+}
+ul li{
+	list-style: none;
+}
+.nav_bar h1{
+	padding-top: 20px;
+}
+.nav_bar ul{
+	position: absolute;
+	left: 580px; 
+	top: 20px;
+}
+.nav_bar ul li{
+	float:left;
+	padding-left: 20px;
+}
+.select{
+	color: #969696;
+}
+
+
+
+.content{
+	clear: both; 
+	background-color: #fff;
+	margin: 0 auto;
+	width: 960px;
+	clear: both;	
+	padding-bottom: 20px;
+}
+.content h2,h3,span,p,img{
+	padding-left: 20px;
+}
+.content h2{
+	padding-top:20px;
+}
+.content p{
+	text-indent:32px;
+	padding-bottom: 20px;
+}
+.content ul{
+	padding-bottom: 20px;
+}
+.pictxt{
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	background-color: #999999;
+	position: relative;
+}
+.pictxt p{
+	text-indent:0px;
+	padding: 0px;
+	line-height: 40px;
+}
+.pictxt img{
+	width: 80px;
+	height: 80px;
+	padding-left: 0px;
+	position: absolute;
+	left:30px;
+	top: 40px;
+}
+/*最后一篇文章的样式*/
+.content ol{
+	margin-left: 60px;
+}
+.content >ol >li{
+	font: bold;
+	font-size: 20px;
+}
+#table_me{
+	width: 96%;
+	text-align: left;
+	border-collapse: collapse;
+	margin:20px 0 0 20px;
+}
+#table_me caption{
+	text-align: left;
+}
+#table_me thead{
+	background-color: #333333;
+	color: #fff;
+}
+#table_me tfoot{
+	background-color: #888888;
+}
+/*这是边栏*/
+.side_bar{
+	clear: both;
+	width: 960px;
+	height:480px;
+	margin: 20px auto;
+	background-color: #888888;
+	color: #fff;
+	position: relative;
+}
+.side_bar h2{
+	border-left: 5px solid #000;
+	margin-left: 20px;
+	padding: 8px 0;
+	position: absolute;
+	top: 0px;
+}
+.side_bar form{
+	position: absolute;
+	top: 60px;
+}
+.side_bar table{
+	width:900px;
+	position: absolute;
+	left: 30px;
+}
+button{
+	 width:100%;
+	 height:60px;
+	 background-color: #0099ff;
+	 font-size: 30px;
+}
+.footer{
+	width:1000
+	height: 60px;
+	margin: 0 auto;
+	background-color: #ccff00;
+}
+.footer p{
+	text-align: center;
+	line-height: 60px;
+}
