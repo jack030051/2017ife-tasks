@@ -1,0 +1,29 @@
+.container{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	background-color: #CCC;
+	overflow: hidden;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -200px;
+}
+.leftCorner{
+	background-color: #fc0;
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+.rightCorner{
+	background-color: #fc0;
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
