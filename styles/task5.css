@@ -16,7 +16,7 @@ p{
 ul,li,a{
 	list-style: none;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 .nav_bar h1{
 	padding-top: 20px;
@@ -103,6 +103,7 @@ ul,li,a{
 .content >ol >li{
 	font: bold;
 	font-size: 20px;
+	font-color: #000;
 }
 #table_me{
 	width: 96%;
