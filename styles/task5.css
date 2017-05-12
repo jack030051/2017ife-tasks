@@ -1,0 +1,165 @@
+p{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 95%;
+	margin: auto;
+	background-color: #cccccc;
+}
+.nav_bar{
+	background-color: #000;
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+ul,li,a{
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+}
+.nav_bar h1{
+	padding-top: 20px;
+	padding-left: 30px;
+	color: #fff;
+}
+.nav_bar ul{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+.nav_bar ul li{
+	float: left;
+	padding-left: 20px;
+}
+.select{
+	color: #969696;
+}
+
+/*设置内容居左，边栏居右*/
+.main{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.main_content{
+	width: auto;
+	margin-right: 460px;
+}
+
+.content{
+	background-color: #fff;
+	margin: 0 auto;
+	width: 95%;
+	padding-bottom: 20px;
+}
+.content h2,h3,span,p,img{
+	padding-left: 20px;
+}
+.content img{
+	width: 85%;
+	height: 85%;
+}
+.content h2{
+	padding-top:20px;
+}
+.content p{
+	text-indent:32px;
+	padding-bottom: 20px;
+}
+.content ul{
+	padding-bottom: 20px;
+}
+.pictxts{
+	padding-left: 15px;
+}
+.pictxt{
+	text-align: center;
+	background-color: #999;
+	position: relative;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	width: 120px;
+	height: 130px;
+}
+.pictxt p{
+	text-indent: 0px;
+	padding: 0px;
+
+}
+.pictxt img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	padding-left: 0px;
+	position: absolute;
+	left:10px;
+ 	top: 25px; 
+}
+/*最后一篇文章的样式*/
+.content ol{
+	margin-left: 60px;
+}
+.content >ol >li{
+	font: bold;
+	font-size: 20px;
+}
+#table_me{
+	width: 96%;
+	text-align: left;
+	border-collapse: collapse;
+	margin:20px 0 0 20px;
+}
+#table_me caption{
+	text-align: left;
+}
+#table_me thead{
+	background-color: #333333;
+	color: #fff;
+}
+#table_me tfoot{
+	background-color: #888888;
+}
+/*这是边栏*/
+.side_bar{
+	width: 450px;
+	height: 430px;
+	margin: 0 auto;
+	background-color: #888888;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.side_bar h2{
+	border-left: 5px solid #000;
+	margin-left: 20px;
+	padding: 8px 0;
+	position: absolute;
+	top: 0px;
+}
+.side_bar form{
+	position: absolute;
+	top: 60px;
+}
+#subject_table{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+button{
+	 height: 60px;
+	 width: 100%;
+	 background-color: #0099ff;
+	 font-size: 30px;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #000;
+	color: #fff;
+}
+.footer p{
+	text-align: center;
+	line-height: 60px;
+}
